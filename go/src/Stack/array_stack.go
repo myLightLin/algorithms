@@ -1,11 +1,11 @@
+package stack
+
 type arrayStack struct {
 	data []int
 }
 
 func newArrayStack() *arrayStack {
-	return &arrayStack {
-		data: make([]int, 0, 16)
-	}
+	return &arrayStack { data: make([]int, 0, 16) }
 }
 
 func (s *arrayStack) size() int {

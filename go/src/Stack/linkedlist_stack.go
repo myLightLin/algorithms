@@ -1,3 +1,9 @@
+package stack
+
+import (
+	"container/list"
+)
+
 type linkedListStack struct {
 	data *list.List
 }
